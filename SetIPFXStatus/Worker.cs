@@ -96,7 +96,7 @@ namespace SetIPFXStatus
 						this.GetCurrentStatus();
 						while (this.keepRunning)
 						{
-							Thread.Sleep(1);
+							Thread.Sleep(10000);
 						}
 					}
 				}
